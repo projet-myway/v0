@@ -9,6 +9,7 @@ import random
 import pandas as pd
 import os
 import numpy as np
+
 file_path = r"C:\Users\vianney\Desktop\projet_python\RATP_GTFS_METRO_10"
 
 class Station(object):
@@ -30,22 +31,24 @@ class Station(object):
     	"""
     	returns a dictionnary of {[the neighbourg's stop_id] and [duration to get to there]}
     	"""
-
-    def add_trip(self, route_id, set_of_dates, time, next_stop_id, duration):
-    	"""
-    	returns the name of the line used to make the trip
-    	To be completed
-    	"""
-    	self.
-
-	def add_transfert(self, next_stop_id, duration):
-		"""
-		add a transfert to the line. ie : just a trip inside the station : 
-		-> no dependance to time.
-    	returns the name of the line used to make the trip
-    	To be completed
-    	"""
-		return name_of_line
-
+        #return 0
+#    
+#    def add_trip(self, route_id, set_of_dates, time, next_stop_id, duration):
+#    	"""
+#    	returns the name of the line used to make the trip
+#    	To be completed
+#    	"""
+#    	1+1
+#        return
+#
+#	def add_transfert(self, next_stop_id, duration):
+#		"""
+#		add a transfert to the line. ie : just a trip inside the station : 
+#		-> no dependance to time.
+#    	returns the name of the line used to make the trip
+#    	To be completed
+#    	"""
+#		return #name_of_line
+#
 
 

@@ -20,7 +20,7 @@ class Network(object):
         ????
         """
 
-    def compute_shortes_path(from_stop_name, to_stop_name, date_and_time):
+    def compute_shortest_path(from_stop_name, to_stop_name, date_and_time):
     	"""
     	returns a dictionnary of {[the neighbourg's stop_id] and [duration to get to there]}
     	"""
