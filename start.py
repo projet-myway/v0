@@ -28,7 +28,7 @@ ligne10_stopID1 = pd.merge(ligne10_stopID0, a, how='inner', on = ['stop_id'])
 
 
 
-
+print("bonjour")
  
 
 def time_to_dest(depart,arrivee,date):
